@@ -1,13 +1,13 @@
-# project ns (3.24.1) configured on Fri Mar 18 14:18:45 2016 by
+# project ns (3.24.1) configured on Wed Mar 23 20:34:22 2016 by
 # waf 1.8.12 (abi 98, python 2070af0 on darwin)
-# using waf configure --with-pybindgen ../pybindgen-0.17.0.post41+ngd10fa60
+# using ./waf configure
 #
 ----------------------------------------
 Setting top to
-/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1
+/Users/sylvia/Documents/vanet/ns-3.24.1
 ----------------------------------------
 Setting out to
-/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build
+/Users/sylvia/Documents/vanet/ns-3.24.1/build
 ----------------------------------------
 Checking for 'clang' (C compiler)
 find program=['clang'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='CC' -> ['/usr/bin/clang']
@@ -122,12 +122,12 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_8dcb00521a9fb9a67b176fc97ede4634/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5e559bcd26f5d43ca50026aa4c5d0de2/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-fno-strict-aliasing', '-fno-common', '-dynamic', '-arch', 'x86_64', '-arch', 'i386', '-fno-common', '-fno-strict-aliasing', '-fwrapv', '-fwrapv', '-I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DENABLE_DTRACE', '-DMACOSX', '-DNDEBUG', '-DNDEBUG', '-DENABLE_DTRACE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_8dcb00521a9fb9a67b176fc97ede4634/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_8dcb00521a9fb9a67b176fc97ede4634/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-fno-strict-aliasing', '-fno-common', '-dynamic', '-arch', 'x86_64', '-arch', 'i386', '-fno-common', '-fno-strict-aliasing', '-fwrapv', '-fwrapv', '-I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DENABLE_DTRACE', '-DMACOSX', '-DNDEBUG', '-DNDEBUG', '-DENABLE_DTRACE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5e559bcd26f5d43ca50026aa4c5d0de2/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_5e559bcd26f5d43ca50026aa4c5d0de2/testbuild/testprog[0m
 
-['/usr/bin/clang++', '-arch', 'x86_64', '-arch', 'i386', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_8dcb00521a9fb9a67b176fc97ede4634/testbuild/testprog', '-framework', 'CoreFoundation', '-L/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config', '-lpython2.7', '-ldl']
+['/usr/bin/clang++', '-arch', 'x86_64', '-arch', 'i386', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5e559bcd26f5d43ca50026aa4c5d0de2/testbuild/testprog', '-framework', 'CoreFoundation', '-L/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config', '-lpython2.7', '-ldl']
 yes
 ------------------------------------------------------------------
 Asking python-config for pyext '--cflags --libs --ldflags' flags
@@ -159,25 +159,25 @@ int main(int argc, char **argv)
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_28b502bfc45f012e482a09a3e6a236df/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_afb78193f8a2a128ee68c8e70f8b7682/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-fPIC', '-fno-strict-aliasing', '-fno-common', '-dynamic', '-arch', 'x86_64', '-arch', 'i386', '-fno-common', '-fno-strict-aliasing', '-fwrapv', '-fwrapv', '-fPIC', '-I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DENABLE_DTRACE', '-DMACOSX', '-DNDEBUG', '-DNDEBUG', '-DENABLE_DTRACE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_28b502bfc45f012e482a09a3e6a236df/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_28b502bfc45f012e482a09a3e6a236df/testbuild/testprog.so[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-fPIC', '-fno-strict-aliasing', '-fno-common', '-dynamic', '-arch', 'x86_64', '-arch', 'i386', '-fno-common', '-fno-strict-aliasing', '-fwrapv', '-fwrapv', '-fPIC', '-I/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DENABLE_DTRACE', '-DMACOSX', '-DNDEBUG', '-DNDEBUG', '-DENABLE_DTRACE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_afb78193f8a2a128ee68c8e70f8b7682/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_afb78193f8a2a128ee68c8e70f8b7682/testbuild/testprog.so[0m
 
-['/usr/bin/clang++', '-arch', 'x86_64', '-arch', 'i386', '-bundle', '-undefined', 'dynamic_lookup', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_28b502bfc45f012e482a09a3e6a236df/testbuild/testprog.so', '-framework', 'CoreFoundation', '-L/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config', '-lpython2.7', '-ldl']
+['/usr/bin/clang++', '-arch', 'x86_64', '-arch', 'i386', '-bundle', '-undefined', 'dynamic_lookup', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_afb78193f8a2a128ee68c8e70f8b7682/testbuild/testprog.so', '-framework', 'CoreFoundation', '-L/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/config', '-lpython2.7', '-ldl']
 yes
 ------------------------------------------------------------------
 Checking for compilation flag -Wno-array-bounds support
 ==>
 int main() { return 0; }
 <==
-[1/1] Compiling [32mbuild/.conf_check_bc9b8e40e56ef59aa0127b0408a448f8/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_f108ee1b3bc902431c266602f98c946e/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_bc9b8e40e56ef59aa0127b0408a448f8/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-Wno-array-bounds', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_f108ee1b3bc902431c266602f98c946e/testbuild/test.cpp.1.o']
 ok
 ------------------------------------------------------------------
 Checking for pybindgen location
-../pybindgen-0.17.0.post41+ngd10fa60 (given)
+../pybindgen-0.17.0.post41+ngd10fa60 (guessed)
 ------------------------------------------------------------------
 Checking for python module 'pybindgen'
 ['/usr/bin/python', '-c', "\nimport pybindgen as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -201,29 +201,29 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_92ab911604f9f7a335bcf35a53c311b3/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_932ef8835654ee2dd972ca71c8621c21/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_92ab911604f9f7a335bcf35a53c311b3/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_932ef8835654ee2dd972ca71c8621c21/testbuild/test.cpp.1.o']
 err: ../test.cpp:7:28: error: no viable conversion from 'vector<unsigned long>' to 'vector<uint64_t>'
    std::vector< uint64_t > t = std::vector< unsigned long > ();
                            ^   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/vector:565:5: note: candidate constructor not viable: no known conversion from 'std::vector<unsigned long>' to 'const std::__1::vector<unsigned long long, std::__1::allocator<unsigned long long> > &' for 1st argument
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/vector:565:5: note: candidate constructor not viable: no known conversion from 'std::vector<unsigned long>' to 'const std::__1::vector<unsigned long long, std::__1::allocator<unsigned long long> > &' for 1st argument
     vector(const vector& __x);
     ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4410538384: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_92ab911604f9f7a335bcf35a53c311b3/testbuild/test.cpp.1.o']
+	{task 4481360336: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_932ef8835654ee2dd972ca71c8621c21/testbuild/test.cpp.1.o']
 
 no
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/bindings/python: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/bindings/python: The configuration failed
 ------------------------------------------------------------------
 Checking for types uint64_t and unsigned long equivalence
 yes
@@ -241,9 +241,9 @@ int main ()
 }
 
 <==
-[1/1] Compiling [32mbuild/.conf_check_f02d20ed52a163cb318d766179cbf80e/test.cpp[0m
+[1/1] Compiling [32mbuild/.conf_check_21310b410b3d29ebdedb30d7a72af360/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_f02d20ed52a163cb318d766179cbf80e/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_21310b410b3d29ebdedb30d7a72af360/testbuild/test.cpp.1.o']
 yes
 ------------------------------------------------------------------
 Checking for types uint64_t and unsigned long long equivalence
@@ -263,26 +263,26 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ec382b81fbf40d13812fea2838ec90fa/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_ef3bf9d62ec67713eb94c15608487b73/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ec382b81fbf40d13812fea2838ec90fa/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_ef3bf9d62ec67713eb94c15608487b73/testbuild/test.cpp.1.o']
 err: ../test.cpp:5:15: error: no type named '__si_class_type_info' in namespace '__cxxabiv1'
    const abi::__si_class_type_info *_typeinfo  __attribute__((unused)) = NULL;
          ~~~~~^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/bindings/python: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/bindings/python: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4408939024: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ec382b81fbf40d13812fea2838ec90fa/testbuild/test.cpp.1.o']
+	{task 4481309776: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DPYTHONDIR="/usr/local/lib/python2.7/site-packages"', '-DPYTHONARCHDIR="/usr/local/lib/python2.7/site-packages"', '-DHAVE_PYEMBED=1', '-DHAVE_PYEXT=1', '-DHAVE_PYTHON_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_ef3bf9d62ec67713eb94c15608487b73/testbuild/test.cpp.1.o']
 
 incomplete
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/bindings/python: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/bindings/python: The configuration failed
 ------------------------------------------------------------------
 Checking for python module 'pygccxml'
 ['/usr/bin/python', '-c', "\nimport pygccxml as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -291,15 +291,15 @@ err: Traceback (most recent call last):
 ImportError: No module named pygccxml
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/bindings/python: Could not find the python module 'pygccxml'
+from /Users/sylvia/Documents/vanet/ns-3.24.1/bindings/python: Could not find the python module 'pygccxml'
 ------------------------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src: The configuration failed
 ------------------------------------------------------------------
 Checking boost includes
 headers not found, please provide a --boost-includes argument (see help)
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src: The configuration failed
 ------------------------------------------------------------------
 Checking for click location
 not found
@@ -307,12 +307,12 @@ not found
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='PKGCONFIG' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/config-store: Could not find the program ['pkg-config']
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/config-store: Could not find the program ['pkg-config']
 ------------------------------------------------------------------
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='PKGCONFIG' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/config-store: Could not find the program ['pkg-config']
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/config-store: Could not find the program ['pkg-config']
 ------------------------------------------------------------------
 Checking for type uint128_t
 ==>
@@ -326,9 +326,9 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_91359d6cd7bf93c28f3f282e922fe3c5/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_af7a2ccaadacd8aff431c0eaf458b134/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_91359d6cd7bf93c28f3f282e922fe3c5/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_af7a2ccaadacd8aff431c0eaf458b134/testbuild/test.cpp.1.o']
 err: ../test.cpp:5:7: error: use of undeclared identifier 'uint128_t'
         if ((uint128_t *) 0) return 0;
              ^
@@ -340,18 +340,18 @@ err: ../test.cpp:5:7: error: use of undeclared identifier 'uint128_t'
                     ^
 3 errors generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409041936: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_91359d6cd7bf93c28f3f282e922fe3c5/testbuild/test.cpp.1.o']
+	{task 4481363600: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_af7a2ccaadacd8aff431c0eaf458b134/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: The configuration failed
 ------------------------------------------------------------------
 Checking for type __uint128_t
 ==>
@@ -365,12 +365,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_52e1ca64b968e60261b3d5c8dde8e2fa/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_9d73e520ddf91268787fa3ef2f096666/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_52e1ca64b968e60261b3d5c8dde8e2fa/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_52e1ca64b968e60261b3d5c8dde8e2fa/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_9d73e520ddf91268787fa3ef2f096666/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_9d73e520ddf91268787fa3ef2f096666/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_52e1ca64b968e60261b3d5c8dde8e2fa/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_9d73e520ddf91268787fa3ef2f096666/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking high precision implementation
@@ -386,12 +386,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_64a9429fd62118dffdabd563e925ef12/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -404,12 +404,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7498f3bbed33226b14ded2ccbd5417df/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5032e0936452f8c3c6ecb510076e0938/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -422,26 +422,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_778c352b1ef374d600096552c1b51ca3/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_4d5c01098e6d7c42278538d530c24294/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_778c352b1ef374d600096552c1b51ca3/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_4d5c01098e6d7c42278538d530c24294/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'sys/inttypes.h' file not found
 #include <sys/inttypes.h>
          ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409124752: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_778c352b1ef374d600096552c1b51ca3/testbuild/test.cpp.1.o']
+	{task 4481830224: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_4d5c01098e6d7c42278538d530c24294/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: The configuration failed
 ------------------------------------------------------------------
 Checking for header sys/types.h
 ==>
@@ -453,12 +453,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_15866ca2dfc16c5f2ead7da3a6ed2111/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_c471203a0cb24002d3ce0bdf98e04686/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_15866ca2dfc16c5f2ead7da3a6ed2111/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_15866ca2dfc16c5f2ead7da3a6ed2111/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_c471203a0cb24002d3ce0bdf98e04686/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c471203a0cb24002d3ce0bdf98e04686/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_15866ca2dfc16c5f2ead7da3a6ed2111/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_c471203a0cb24002d3ce0bdf98e04686/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header sys/stat.h
@@ -471,12 +471,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_8a06926de6dd8a98c20ef989dad477fa/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5b2894966c9b3f739e8b996f82f6f224/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_8a06926de6dd8a98c20ef989dad477fa/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_8a06926de6dd8a98c20ef989dad477fa/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5b2894966c9b3f739e8b996f82f6f224/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_5b2894966c9b3f739e8b996f82f6f224/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_8a06926de6dd8a98c20ef989dad477fa/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5b2894966c9b3f739e8b996f82f6f224/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header dirent.h
@@ -489,12 +489,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_1571f659d4c2df42c2b2a51112ad99ac/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_0d400c5a4c522cd14b10045636537465/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_1571f659d4c2df42c2b2a51112ad99ac/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_1571f659d4c2df42c2b2a51112ad99ac/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_0d400c5a4c522cd14b10045636537465/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_0d400c5a4c522cd14b10045636537465/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_1571f659d4c2df42c2b2a51112ad99ac/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_0d400c5a4c522cd14b10045636537465/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header stdlib.h
@@ -507,12 +507,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ce0965c03701f530c7ef80a8c5939462/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_c2944aeb3ea3bd96291ae9fe1d9c80b0/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ce0965c03701f530c7ef80a8c5939462/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ce0965c03701f530c7ef80a8c5939462/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_c2944aeb3ea3bd96291ae9fe1d9c80b0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_c2944aeb3ea3bd96291ae9fe1d9c80b0/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ce0965c03701f530c7ef80a8c5939462/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_c2944aeb3ea3bd96291ae9fe1d9c80b0/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header signal.h
@@ -525,12 +525,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_cc013843e0af29932dd9fe2bf053102b/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_61418ca0411ccaba6fc9679a093aeb01/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_cc013843e0af29932dd9fe2bf053102b/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_cc013843e0af29932dd9fe2bf053102b/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_61418ca0411ccaba6fc9679a093aeb01/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_61418ca0411ccaba6fc9679a093aeb01/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_cc013843e0af29932dd9fe2bf053102b/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_61418ca0411ccaba6fc9679a093aeb01/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header pthread.h
@@ -545,12 +545,12 @@ int main ()
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e310f5825cf811f44e41075453588761/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_61b7ed59da6675dd34d6482333af1758/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e310f5825cf811f44e41075453588761/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_e310f5825cf811f44e41075453588761/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_61b7ed59da6675dd34d6482333af1758/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_61b7ed59da6675dd34d6482333af1758/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e310f5825cf811f44e41075453588761/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_61b7ed59da6675dd34d6482333af1758/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header stdint.h
@@ -563,12 +563,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_64a9429fd62118dffdabd563e925ef12/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_INTTYPES_H=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_f53d99638c94ebb26ec1bd4f1691f74d/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_64a9429fd62118dffdabd563e925ef12/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header inttypes.h
@@ -581,12 +581,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7498f3bbed33226b14ded2ccbd5417df/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_5032e0936452f8c3c6ecb510076e0938/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7498f3bbed33226b14ded2ccbd5417df/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_5032e0936452f8c3c6ecb510076e0938/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header sys/inttypes.h
@@ -599,26 +599,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_778c352b1ef374d600096552c1b51ca3/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_4d5c01098e6d7c42278538d530c24294/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_778c352b1ef374d600096552c1b51ca3/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_4d5c01098e6d7c42278538d530c24294/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'sys/inttypes.h' file not found
 #include <sys/inttypes.h>
          ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409528400: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_778c352b1ef374d600096552c1b51ca3/testbuild/test.cpp.1.o']
+	{task 4481770832: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_4d5c01098e6d7c42278538d530c24294/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: The configuration failed
 ------------------------------------------------------------------
 Checking for library rt
 ==>
@@ -629,27 +629,27 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_ed1185c73052871aa0d3c8a74874360e/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_34144577d3791d6041110da5dce96362/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ed1185c73052871aa0d3c8a74874360e/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_ed1185c73052871aa0d3c8a74874360e/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE___UINT128_T=1', '-DINT64X64_USE_128=1', '-DHAVE_SYS_TYPES_H=1', '-DHAVE_SYS_STAT_H=1', '-DHAVE_DIRENT_H=1', '-DHAVE_STDLIB_H=1', '-DHAVE_GETENV=1', '-DHAVE_SIGNAL_H=1', '-DHAVE_PTHREAD_H=1', '-DHAVE_STDINT_H=1', '-DHAVE_INTTYPES_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_34144577d3791d6041110da5dce96362/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_34144577d3791d6041110da5dce96362/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ed1185c73052871aa0d3c8a74874360e/testbuild/testprog', '-lrt']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_34144577d3791d6041110da5dce96362/testbuild/testprog', '-lrt']
 err: ld: library not found for -lrt
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409472976: cxxprogram test.cpp.1.o -> testprog}
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_ed1185c73052871aa0d3c8a74874360e/testbuild/testprog', '-lrt']
+	{task 4481770256: cxxprogram test.cpp.1.o -> testprog}
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_34144577d3791d6041110da5dce96362/testbuild/testprog', '-lrt']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/core: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/core: The configuration failed
 ------------------------------------------------------------------
 Checking for header sys/ioctl.h
 ==>
@@ -661,12 +661,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_7a9c5fe587dd6efedd50f5cb71be8298/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_25012c5f770131534be9597367eb6bb5/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7a9c5fe587dd6efedd50f5cb71be8298/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_7a9c5fe587dd6efedd50f5cb71be8298/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_25012c5f770131534be9597367eb6bb5/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_25012c5f770131534be9597367eb6bb5/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_7a9c5fe587dd6efedd50f5cb71be8298/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_25012c5f770131534be9597367eb6bb5/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header net/if.h
@@ -679,12 +679,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_19a7ebe4306452c66f5625c4a95f55f8/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_a0b8c804e88ed9eaf4022e7572766dd0/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_19a7ebe4306452c66f5625c4a95f55f8/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_19a7ebe4306452c66f5625c4a95f55f8/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_a0b8c804e88ed9eaf4022e7572766dd0/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_a0b8c804e88ed9eaf4022e7572766dd0/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_19a7ebe4306452c66f5625c4a95f55f8/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_a0b8c804e88ed9eaf4022e7572766dd0/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header net/ethernet.h
@@ -697,12 +697,12 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_c1f9cbf55fb4748f7c894f5de8071d50/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_8a69979e6d6769cc668384c9dc950cd8/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_c1f9cbf55fb4748f7c894f5de8071d50/testbuild/test.cpp.1.o']
-[2/2] Linking [33mbuild/.conf_check_c1f9cbf55fb4748f7c894f5de8071d50/testbuild/testprog[0m
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_8a69979e6d6769cc668384c9dc950cd8/testbuild/test.cpp.1.o']
+[2/2] Linking [33mbuild/.conf_check_8a69979e6d6769cc668384c9dc950cd8/testbuild/testprog[0m
 
-['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_c1f9cbf55fb4748f7c894f5de8071d50/testbuild/testprog']
+['/usr/bin/clang++', 'test.cpp.1.o', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_8a69979e6d6769cc668384c9dc950cd8/testbuild/testprog']
 yes
 ------------------------------------------------------------------
 Checking for header linux/if_tun.h
@@ -715,26 +715,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_17a434533d6b62052080dac53b79af6c/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_17a434533d6b62052080dac53b79af6c/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'linux/if_tun.h' file not found
 #include <linux/if_tun.h>
          ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409123984: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/testbuild/test.cpp.1.o']
+	{task 4481772816: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_17a434533d6b62052080dac53b79af6c/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/fd-net-device: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/fd-net-device: The configuration failed
 ------------------------------------------------------------------
 Checking for header netpacket/packet.h
 ==>
@@ -746,26 +746,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_fc2c346a0a17c3016f76bf9df6f75428/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_02758b67e381d896d91f5781a5adf1c4/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_fc2c346a0a17c3016f76bf9df6f75428/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_02758b67e381d896d91f5781a5adf1c4/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'netpacket/packet.h' file not found
 #include <netpacket/packet.h>
          ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/fd-net-device: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409530128: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_fc2c346a0a17c3016f76bf9df6f75428/testbuild/test.cpp.1.o']
+	{task 4481856400: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_02758b67e381d896d91f5781a5adf1c4/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/fd-net-device: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/fd-net-device: The configuration failed
 ------------------------------------------------------------------
 Checking for NSC location
 not found
@@ -773,7 +773,7 @@ not found
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='PKGCONFIG' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/stats: Could not find the program ['pkg-config']
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/stats: Could not find the program ['pkg-config']
 ------------------------------------------------------------------
 Checking for header linux/if_tun.h
 ==>
@@ -785,26 +785,26 @@ int main(int argc, char **argv) {
 }
 
 <==
-[1/2] Compiling [32mbuild/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/test.cpp[0m
+[1/2] Compiling [32mbuild/.conf_check_17a434533d6b62052080dac53b79af6c/test.cpp[0m
 
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/testbuild/test.cpp.1.o']
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_17a434533d6b62052080dac53b79af6c/testbuild/test.cpp.1.o']
 err: ../test.cpp:1:10: fatal error: 'linux/if_tun.h' file not found
 #include <linux/if_tun.h>
          ^
 1 error generated.
 
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/tap-bridge: Test does not build: Traceback (most recent call last):
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/tap-bridge: Test does not build: Traceback (most recent call last):
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Configure.py", line 339, in run_build
     bld.compile()
-  File "/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
+  File "/Users/sylvia/Documents/vanet/ns-3.24.1/.waf-1.8.12-f00e5b53f6bbeab1384a38c9cc5d51f7/waflib/Build.py", line 182, in compile
     raise Errors.BuildError(self.producer.error)
 BuildError: Build failed
  -> task in 'testprog' failed (exit status 1): 
-	{task 4409531984: cxx test.cpp -> test.cpp.1.o}
-['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/build/.conf_check_e9cdac4b7739ab7ac4f9c3c1217d7f76/testbuild/test.cpp.1.o']
+	{task 4481855568: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/clang++', '-O0', '-ggdb', '-g3', '-Wall', '-Werror', '-Wno-unused-local-typedefs', '-Wno-potentially-evaluated-expression', '-DNS3_BUILD_PROFILE_DEBUG', '-DNS3_ASSERT_ENABLE', '-DNS3_LOG_ENABLE', '-DHAVE_SYS_IOCTL_H=1', '-DHAVE_IF_NETS_H=1', '-DHAVE_NET_ETHERNET_H=1', '../test.cpp', '-c', '-o', '/Users/sylvia/Documents/vanet/ns-3.24.1/build/.conf_check_17a434533d6b62052080dac53b79af6c/testbuild/test.cpp.1.o']
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/tap-bridge: The configuration failed
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/tap-bridge: The configuration failed
 ------------------------------------------------------------------
 Checking for python module 'gtk'
 ['/usr/bin/python', '-c', "\nimport gtk as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -813,7 +813,7 @@ err: Traceback (most recent call last):
 ImportError: No module named gtk
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/visualizer: Could not find the python module 'gtk'
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/visualizer: Could not find the python module 'gtk'
 ------------------------------------------------------------------
 Checking for python module 'goocanvas'
 ['/usr/bin/python', '-c', "\nimport goocanvas as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -822,7 +822,7 @@ err: Traceback (most recent call last):
 ImportError: No module named goocanvas
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/visualizer: Could not find the python module 'goocanvas'
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/visualizer: Could not find the python module 'goocanvas'
 ------------------------------------------------------------------
 Checking for python module 'pygraphviz'
 ['/usr/bin/python', '-c', "\nimport pygraphviz as current_module\nversion = getattr(current_module, '__version__', None)\nif version is not None:\n\tprint(str(version))\nelse:\n\tprint('unknown version')\n"]
@@ -831,7 +831,7 @@ err: Traceback (most recent call last):
 ImportError: No module named pygraphviz
 
 not found
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1/src/visualizer: Could not find the python module 'pygraphviz'
+from /Users/sylvia/Documents/vanet/ns-3.24.1/src/visualizer: Could not find the python module 'pygraphviz'
 ------------------------------------------------------------------
 Checking for program 'sudo'
 /usr/bin/sudo
@@ -840,14 +840,14 @@ find program=['sudo'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/loca
 Checking for program 'valgrind'
 not found
 find program=['valgrind'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='VALGRIND' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1: Could not find the program ['valgrind']
+from /Users/sylvia/Documents/vanet/ns-3.24.1: Could not find the program ['valgrind']
 ------------------------------------------------------------------
 Checking for program 'pkg-config'
 not found
 find program=['pkg-config'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='PKGCONFIG' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1: Could not find the program ['pkg-config']
+from /Users/sylvia/Documents/vanet/ns-3.24.1: Could not find the program ['pkg-config']
 ------------------------------------------------------------------
 Checking for program 'doxygen'
 not found
 find program=['doxygen'] paths=['/Library/maven/apache-maven-3.3.3/bin', '/usr/local/bin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/git/bin', '/Library/TeX/texbin'] var='DOXYGEN' -> None
-from /Users/sylvia/Documents/ns3/ns-allinone-3.24.1/ns-3.24.1: Could not find the program ['doxygen']
+from /Users/sylvia/Documents/vanet/ns-3.24.1: Could not find the program ['doxygen']
