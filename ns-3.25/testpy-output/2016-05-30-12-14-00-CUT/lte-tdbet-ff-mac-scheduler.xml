@@ -1,0 +1,10 @@
+<Test>
+  <Name>lte-tdbet-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="4.190" user="2.330" system="0.300"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 20000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.190" user="2.330" system="0.300"/>
+  </Test>
+</Test>

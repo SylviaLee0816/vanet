@@ -1,0 +1,1924 @@
+<?xml version="1.0"?>
+<Results>
+<Test>
+  <Name>ns3-tcp-cwnd</Name>
+  <Result>SKIP</Result>
+</Test>
+<Test>
+  <Name>ns3-tcp-interoperability</Name>
+  <Result>SKIP</Result>
+</Test>
+<Test>
+  <Name>ns3-tcp-no-delay</Name>
+  <Result>PASS</Result>
+  <Time real="0.020" user="0.020" system="0.000"/>
+  <Test>
+    <Name>Check that ns-3 TCP Nagle&quot;s algorithm works correctly and that we can turn it off.</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check that ns-3 TCP Nagle&quot;s algorithm works correctly and that we can turn it off.</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>ns3-tcp-loss</Name>
+  <Result>PASS</Result>
+  <Time real="1.750" user="1.560" system="0.020"/>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.100" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.130" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.120" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.130" user="0.110" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.130" user="0.110" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.110" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.110" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the behaviour of TCP upon packet losses</Name>
+    <Result>PASS</Result>
+    <Time real="0.110" user="0.110" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>ns3-tcp-socket</Name>
+  <Result>PASS</Result>
+  <Time real="0.020" user="0.020" system="0.000"/>
+  <Test>
+    <Name>Check that ns-3 TCP successfully transfers an application data write of various sizes (point-to-point)</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check to see that ns-3 TCP successfully transfers an application data write of various sizes (CSMA)</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>nsc-tcp-loss</Name>
+  <Result>SKIP</Result>
+</Test>
+<Test>
+  <Name>ns3-tcp-state</Name>
+  <Result>PASS</Result>
+  <Time real="0.130" user="0.110" system="0.000"/>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.060" user="0.050" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Check the operation of the TCP state machine for several cases</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>ns3-wifi-interference</Name>
+  <Result>PASS</Result>
+  <Time real="0.030" user="0.030" system="0.000"/>
+  <Test>
+    <Name>Test interference calculation when interfering frame exactly overlaps intended frame</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.030" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>traced-callback-typedef</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Check basic TracedCallback operation</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>traced-value-callback</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Check basic TracedValue callback operation</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-ack</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 ACK handling</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-clear-channel-assessment</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 clear channel assessment</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>ns3-wifi-msdu-aggregator</Name>
+  <Result>PASS</Result>
+  <Time real="0.960" user="0.790" system="0.010"/>
+  <Test>
+    <Name>MsduAggregator throughput test</Name>
+    <Result>PASS</Result>
+    <Time real="0.960" user="0.790" system="0.010"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-collision</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.010" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 collision handling</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-energy-detection</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.010" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 energie detection</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-packet</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 MAC header and trailer classes</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-error-model</Name>
+  <Result>PASS</Result>
+  <Time real="0.230" user="0.160" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 error model</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Test the 802.15.4 error model vs distance</Name>
+    <Result>PASS</Result>
+    <Time real="0.230" user="0.160" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-plme-pd-sap</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.010" system="0.000"/>
+  <Test>
+    <Name>Test the PLME and PD SAP per IEEE 802.15.4</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lr-wpan-spectrum-value-helper</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Test the 802.15.4 SpectrumValue helper class</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>animation-interface</Name>
+  <Result>PASS</Result>
+  <Time real="0.020" user="0.010" system="0.000"/>
+  <Test>
+    <Name>Verify AnimationInterface</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Verify Remaining energy tracing</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-downlink-sinr</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.010" system="0.000"/>
+  <Test>
+    <Name>SINR calculation in downlink Data frame: sdBm = [-46 -48]</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in downlink Ctrl Frame: sdBm = [-46 -48]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in downlink Data frame: sdBm = [-63 -61]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in downlink Ctrl Frame: sdBm = [-63 -61]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-uplink-sinr</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>SINR calculation in uplink data frame: sdBm = [-46 -inf] and [-inf -48]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in uplink srs frame: sdBm = [-46 -inf] and [-inf -48]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in uplink data frame: sdBm = [-63 -inf] and [-inf -61]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SINR calculation in uplink srs frame: sdBm = [-63 -inf] and [-inf -61]</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-link-adaptation</Name>
+  <Result>PASS</Result>
+  <Time real="0.800" user="0.690" system="0.000"/>
+  <Test>
+    <Name> snr= -5 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -4 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -3 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -2 dB,  mcs= 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -1 dB,  mcs= 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 0 dB,  mcs= 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 1 dB,  mcs= 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 2 dB,  mcs= 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 3 dB,  mcs= 4</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 4 dB,  mcs= 4</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 5 dB,  mcs= 6</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 6 dB,  mcs= 6</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 7 dB,  mcs= 8</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 8 dB,  mcs= 8</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 9 dB,  mcs= 10</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 10 dB,  mcs= 12</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 11 dB,  mcs= 12</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 12 dB,  mcs= 14</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 13 dB,  mcs= 14</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 14 dB,  mcs= 16</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 15 dB,  mcs= 18</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 16 dB,  mcs= 18</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 17 dB,  mcs= 20</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 18 dB,  mcs= 20</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 19 dB,  mcs= 22</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 20 dB,  mcs= 22</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 21 dB,  mcs= 24</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 22 dB,  mcs= 24</Name>
+    <Result>PASS</Result>
+    <Time real="0.040" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 23 dB,  mcs= 26</Name>
+    <Result>PASS</Result>
+    <Time real="0.050" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 24 dB,  mcs= 26</Name>
+    <Result>PASS</Result>
+    <Time real="0.040" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 25 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 26 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 27 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 28 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 29 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= 30 dB,  mcs= 28</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-interference</Name>
+  <Result>PASS</Result>
+  <Time real="1.180" user="1.070" system="0.010"/>
+  <Test>
+    <Name>d1=3000, d2=6000</Name>
+    <Result>PASS</Result>
+    <Time real="0.100" user="0.090" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=50</Name>
+    <Result>PASS</Result>
+    <Time real="0.080" user="0.080" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=100</Name>
+    <Result>PASS</Result>
+    <Time real="0.090" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=200</Name>
+    <Result>PASS</Result>
+    <Time real="0.090" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=500</Name>
+    <Result>PASS</Result>
+    <Time real="0.100" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=1000</Name>
+    <Result>PASS</Result>
+    <Time real="0.150" user="0.120" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=10000</Name>
+    <Result>PASS</Result>
+    <Time real="0.100" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=100000</Name>
+    <Result>PASS</Result>
+    <Time real="0.130" user="0.110" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=50, d2=1000000</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.100" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=4500, d2=12600</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.110" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>d1=5400, d2=12600</Name>
+    <Result>PASS</Result>
+    <Time real="0.090" user="0.090" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rr-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="1.760" user="1.550" system="0.010"/>
+  <Test>
+    <Name>3 UEs, distance 0 m</Name>
+    <Result>PASS</Result>
+    <Time real="1.760" user="1.550" system="0.010"/>
+  </Test>
+</Test>
+<Test>
+  <Name>adaptive-red-queue-disc</Name>
+  <Result>PASS</Result>
+  <Time real="7.720" user="6.590" system="0.070"/>
+  <Test>
+    <Name>Sanity check on automatically set parameters of ARED</Name>
+    <Result>PASS</Result>
+    <Time real="0.040" user="0.040" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Sanity check on adaptive parameter of ARED</Name>
+    <Result>PASS</Result>
+    <Time real="7.680" user="6.550" system="0.070"/>
+  </Test>
+</Test>
+<Test>
+  <Name>csma-system</Name>
+  <Result>PASS</Result>
+  <Time real="1.940" user="1.810" system="0.020"/>
+  <Test>
+    <Name>Bridge example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Broadcast example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Multicast example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>One subnet example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Packet socket example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Ping example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Raw internet protocol socket example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Star example for Carrier Sense Multiple Access (CSMA) networks</Name>
+    <Result>PASS</Result>
+    <Time real="1.870" user="1.760" system="0.020"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-pf-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="2.260" user="2.020" system="0.020"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 20000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="2.260" user="2.020" system="0.020"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-fdmt-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="3.380" user="2.180" system="0.190"/>
+  <Test>
+    <Name>3 UEs, distance 0 m</Name>
+    <Result>PASS</Result>
+    <Time real="3.380" user="2.180" system="0.190"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-tdmt-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="3.290" user="2.080" system="0.200"/>
+  <Test>
+    <Name>3 UEs, distance 0 m</Name>
+    <Result>PASS</Result>
+    <Time real="3.290" user="2.080" system="0.200"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-tta-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="3.440" user="2.150" system="0.200"/>
+  <Test>
+    <Name>3 UEs, distance 0 m</Name>
+    <Result>PASS</Result>
+    <Time real="3.440" user="2.150" system="0.200"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-fdbet-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="4.240" user="2.540" system="0.290"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 20000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.240" user="2.540" system="0.290"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-tdbet-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="4.190" user="2.330" system="0.300"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 20000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.190" user="2.330" system="0.300"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-tdtbfq-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="6.670" user="5.770" system="0.050"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="6.670" user="5.770" system="0.050"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-earfcn</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>DL EARFCN=500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>DL EARFCN=1000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>DL EARFCN=1301</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>DL EARFCN=7000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>DL EARFCN=20000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>DL EARFCN=50000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=18100</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=19000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=19400</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=10</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=1000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>UL EARFCN=50000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=1000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=1301</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=8000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=50000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=18100</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=19000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=19400</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>EARFCN=50000</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-spectrum-value-helper</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>SpectrumModel fc2160nrb6</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc2160nrb15</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc2160nrb25</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc2160nrb50</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc2160nrb75</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc2160nrb100</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb6</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb15</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb25</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb50</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb75</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>SpectrumModel fc1730nrb100</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nfdB0earfcn500nrb6</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nfdB5earfcn500nrb6</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nfdB10earfcn500nrb6</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nfdB0earfcn500nrb15</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nfdB5earfcn500nrb15</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb6run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb6run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb25run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb25run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb100run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb100run1earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb6run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb6run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb25run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb25run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB10nrb100run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>txpowdB30nrb100run2earfcn500</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-fdtbfq-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="7.620" user="6.400" system="0.060"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="7.620" user="6.400" system="0.060"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-pathloss-model</Name>
+  <Result>PASS</Result>
+  <Time real="0.040" user="0.040" system="0.000"/>
+  <Test>
+    <Name> snr= 47.4054 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -5.61073 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> snr= -15.7921 dB,  mcs= -1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rlc-header</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>0020</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0da4</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>000bb480</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>000bfed790</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>000bfed795d980</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>000bfed795d9cad8</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rlc-um-transmitter</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>One SDU, one PDU</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Segmentation</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Concatenation</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>ReportBufferStatus primitive</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rlc-am-transmitter</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.000" system="0.000"/>
+  <Test>
+    <Name>One SDU, one PDU</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Segmentation</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Concatenation</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>ReportBufferStatus primitive</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rlc-um-e2e</Name>
+  <Result>PASS</Result>
+  <Time real="0.330" user="0.260" system="0.000"/>
+  <Test>
+    <Name> Losses = 0.1%. Seed = 1111</Name>
+    <Result>PASS</Result>
+    <Time real="0.330" user="0.260" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>epc-gtpu</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Check header coding and decoding</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>eps-tft-classifier</Name>
+  <Result>PASS</Result>
+  <Time real="0.000" user="0.000" system="0.000"/>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 2.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 2.2.3.4, da = 1.0.0.0, sp = 2, dp = 123, tos = 0x5 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 6.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 3.3.3.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 3.3.4.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 3.3.3.4, da = 4.4.2.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3456, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3457, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3489, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3456, dp = 6, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3461, dp = 3461, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 3489, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 7895, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 7895, dp = 10, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 5897, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb606200  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 5897, dp = 10, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 2.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 2.2.3.4, da = 1.0.0.0, sp = 2, dp = 123, tos = 0x5 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 6.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 3.3.3.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 3.3.4.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 3.3.3.4, da = 4.4.2.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3456, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3457, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3489, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3456, dp = 6, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3461, dp = 3461, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb437cb0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 3489, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 2.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 2.2.3.4, da = 1.0.0.0, sp = 2, dp = 123, tos = 0x5 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 6.2.3.4, da = 1.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 3.3.3.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 3.3.4.4, da = 4.4.4.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 3.3.3.4, da = 4.4.2.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1234, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1024, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1025, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 1035, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3456, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3457, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 4, dp = 3489, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3456, dp = 6, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 3461, dp = 3461, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb443cd0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 3489, tos = 0x0 --&gt; tftId = 3</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb4474d0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 3489, tos = 0x0 --&gt; tftId = 0</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb4474d0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 7895, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb4474d0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 7895, dp = 10, tos = 0x0 --&gt; tftId = 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb4474d0  d = UPLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 9, dp = 5897, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>0x7fb8cb4474d0  d = DOWNLINK, sa = 9.1.1.1, da = 8.1.1.1, sp = 5897, dp = 10, tos = 0x0 --&gt; tftId = 2</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>epc-s1u-downlink</Name>
+  <Result>PASS</Result>
+  <Time real="0.150" user="0.140" system="0.000"/>
+  <Test>
+    <Name>1 eNB, 1UE</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 2UEs</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>2 eNBs</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>3 eNBs</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 10 pkts 3000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 50 pkts 3000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 10 pkts 15000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 100 pkts 15000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.050" user="0.040" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>epc-s1u-uplink</Name>
+  <Result>PASS</Result>
+  <Time real="0.160" user="0.150" system="0.000"/>
+  <Test>
+    <Name>1 eNB, 1UE</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 2UEs</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>2 eNBs</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>3 eNBs</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 10 pkts 3000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 50 pkts 3000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 10 pkts 15000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>1 eNB, 100 pkts 15000 bytes each</Name>
+    <Result>PASS</Result>
+    <Time real="0.050" user="0.050" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rlc-am-e2e</Name>
+  <Result>PASS</Result>
+  <Time real="2.620" user="2.000" system="0.080"/>
+  <Test>
+    <Name> losses = 5%; run = 1111; continuous SDU arrival</Name>
+    <Result>PASS</Result>
+    <Time real="0.170" user="0.140" system="0.000"/>
+  </Test>
+  <Test>
+    <Name> losses = 5%; run = 1111; bulk SDU arrival</Name>
+    <Result>PASS</Result>
+    <Time real="2.450" user="1.860" system="0.080"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-epc-e2e-data</Name>
+  <Result>PASS</Result>
+  <Time real="1.410" user="1.100" system="0.010"/>
+  <Test>
+    <Name>1 eNB, 1UE</Name>
+    <Result>PASS</Result>
+    <Time real="1.410" user="1.100" system="0.010"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-antenna</Name>
+  <Result>PASS</Result>
+  <Time real="0.740" user="0.530" system="0.010"/>
+  <Test>
+    <Name>o=0, bw=90, x=1, y=0</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=90, x=1, y=1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=90, x=1, y=-1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=90, x=-1, y=-1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=90, x=-1, y=-0</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.010" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=90, x=-1, y=1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=45, bw=90, x=1, y=1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-45, bw=90, x=1, y=-1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=90, bw=90, x=1, y=1</Name>
+    <Result>PASS</Result>
+    <Time real="0.050" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-90, bw=90, x=1, y=-1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=120, x=1, y=0</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=120, x=0.5, y=0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=120, x=0.5, y=-0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=120, x=-1, y=-2</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=0, bw=120, x=-1, y=1</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=60, bw=120, x=0.5, y=0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-60, bw=120, x=0.5, y=-0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.040" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-60, bw=120, x=0.5, y=-0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.060" user="0.020" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=-0.5, y=-0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.030" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=0.5, y=-0.866025</Name>
+    <Result>PASS</Result>
+    <Time real="0.040" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=-1, y=0</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=-1, y=2</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=1, y=0</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=1, y=2</Name>
+    <Result>PASS</Result>
+    <Time real="0.020" user="0.020" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>o=-120, bw=120, x=1, y=-0.1</Name>
+    <Result>PASS</Result>
+    <Time real="0.030" user="0.020" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-pss-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="13.270" user="10.760" system="0.110"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.380" user="3.820" system="0.030"/>
+  </Test>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.690" user="3.730" system="0.030"/>
+  </Test>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.200" user="3.210" system="0.050"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-phy-error-model</Name>
+  <Result>PASS</Result>
+  <Time real="3.710" user="2.940" system="0.050"/>
+  <Test>
+    <Name>DlCtrlPhyErrorModel 2 eNBs, distance 1078 m, RngRun 1</Name>
+    <Result>PASS</Result>
+    <Time real="0.980" user="0.860" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>DataPhyErrorModel 4 UEs, distance 1800 m, RngRun 1</Name>
+    <Result>PASS</Result>
+    <Time real="2.730" user="2.080" system="0.040"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-mimo</Name>
+  <Result>PASS</Result>
+  <Time real="4.190" user="2.690" system="0.410"/>
+  <Test>
+    <Name> UE distance 300 m Scheduler ns3::RrFfMacScheduler, ideal RRC</Name>
+    <Result>PASS</Result>
+    <Time real="0.880" user="0.660" system="0.110"/>
+  </Test>
+  <Test>
+    <Name> UE distance 300 m Scheduler ns3::PfFfMacScheduler, ideal RRC</Name>
+    <Result>PASS</Result>
+    <Time real="1.090" user="0.690" system="0.100"/>
+  </Test>
+  <Test>
+    <Name> UE distance 300 m Scheduler ns3::RrFfMacScheduler, real RRC</Name>
+    <Result>PASS</Result>
+    <Time real="0.950" user="0.640" system="0.100"/>
+  </Test>
+  <Test>
+    <Name> UE distance 300 m Scheduler ns3::PfFfMacScheduler, real RRC</Name>
+    <Result>PASS</Result>
+    <Time real="1.270" user="0.700" system="0.100"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-rrc</Name>
+  <Result>PASS</Result>
+  <Time real="1.670" user="1.100" system="0.030"/>
+  <Test>
+    <Name>nUes=2, nBearers=2, tConnBase=20, tConnIncrPerUe=10, delayDiscStart=1, real RRC, admitRrcConnectionRequest = true</Name>
+    <Result>PASS</Result>
+    <Time real="0.510" user="0.230" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>nUes=2, nBearers=1, tConnBase=20, tConnIncrPerUe=0, delayDiscStart=1, real RRC, admitRrcConnectionRequest = false</Name>
+    <Result>PASS</Result>
+    <Time real="0.220" user="0.120" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>nUes=2, nBearers=2, tConnBase=20, tConnIncrPerUe=10, delayDiscStart=1, ideal RRC, admitRrcConnectionRequest = true</Name>
+    <Result>PASS</Result>
+    <Time real="0.240" user="0.210" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nUes=2, nBearers=1, tConnBase=20, tConnIncrPerUe=0, delayDiscStart=1, ideal RRC, admitRrcConnectionRequest = false</Name>
+    <Result>PASS</Result>
+    <Time real="0.120" user="0.090" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>nUes=1, nBearers=1, tConnBase=0, tConnIncrPerUe=0, delayDiscStart=1, real RRC, admitRrcConnectionRequest = true, failure at RRC Connection Request</Name>
+    <Result>PASS</Result>
+    <Time real="0.320" user="0.230" system="0.010"/>
+  </Test>
+  <Test>
+    <Name>nUes=1, nBearers=1, tConnBase=0, tConnIncrPerUe=0, delayDiscStart=1, real RRC, admitRrcConnectionRequest = true, failure at RRC Connection Setup</Name>
+    <Result>PASS</Result>
+    <Time real="0.260" user="0.220" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-cqa-ff-mac-scheduler</Name>
+  <Result>PASS</Result>
+  <Time real="14.650" user="11.430" system="0.140"/>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="5.040" user="4.070" system="0.040"/>
+  </Test>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 10000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="5.240" user="4.080" system="0.040"/>
+  </Test>
+  <Test>
+    <Name>distances (m) = [ 0 4800 6000 ]</Name>
+    <Result>PASS</Result>
+    <Time real="4.370" user="3.280" system="0.060"/>
+  </Test>
+</Test>
+<Test>
+  <Name>test-asn1-encoding</Name>
+  <Result>PASS</Result>
+  <Time real="0.010" user="0.000" system="0.000"/>
+  <Test>
+    <Name>Testing RrcConnectionRequest</Name>
+    <Result>PASS</Result>
+    <Time real="0.010" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionSetupTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionSetupCompleteTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionReconfigurationCompleteTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionReconfigurationTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing HandoverPreparationInfoTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionReestablishmentRequestTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionReestablishmentTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionReestablishmentCompleteTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing RrcConnectionRejectTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+  <Test>
+    <Name>Testing MeasurementReportTestCase</Name>
+    <Result>PASS</Result>
+    <Time real="0.000" user="0.000" system="0.000"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-ue-measurements</Name>
+  <Result>PASS</Result>
+  <Time real="1.300" user="1.190" system="0.020"/>
+  <Test>
+    <Name>d1=5000, d2=10000</Name>
+    <Result>PASS</Result>
+    <Time real="1.300" user="1.190" system="0.020"/>
+  </Test>
+</Test>
+<Test>
+  <Name>lte-harq</Name>
+  <Result>PASS</Result>
+  <Time real="9.290" user="4.320" system="0.620"/>
+  <Test>
+    <Name>2 UEs, distance 2400 m, TB size 66</Name>
+    <Result>PASS</Result>
+    <Time real="6.190" user="2.690" system="0.420"/>
+  </Test>
+  <Test>
+    <Name>1 UEs, distance 770 m, TB size 472</Name>
+    <Result>PASS</Result>
+    <Time real="3.100" user="1.630" system="0.200"/>
+  </Test>
+</Test>
